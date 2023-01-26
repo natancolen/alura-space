@@ -17,12 +17,13 @@ ctrl+ship+p > python select interpreter > escolher python venv venv instalado
 
 ---------------------------------------------------------------------------------
 
-ocultando SECRET_KEY
+### Ocultando SECRET_KEY
 pip install python-dotenv
 
 ---------------------------------------
 
 python django-admin startproject setup .
+python manage.py startapp name_app
 
 ---------------------------------------
 
